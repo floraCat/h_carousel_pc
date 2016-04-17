@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*****reset*****/
+body,input,button,select,textarea{ font:12px/24px "Microsoft Yahei",arial,Tahoma,sans-serif; color:#333;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,form,input,button,textarea{ padding:0; margin:0;}
+ul,ol,li{ list-style-type:none;}
+img,iframe{ border:0;}
+input,button,textarea,select{ border:#ddd 1px solid; outline:none;}
+input,button,textarea{ background:transparent;}
+table{ border-collapse:collapse; border-spacing:0;}
+a{ text-decoration:none; color:#333;}
+a:hover{ color: #e43a3d;}
+h1,h2,h3,h4,h5,h6{ font-size:14px; font-weight:normal;}
+i,em{ font-style:normal;} 
+img,textarea{ vertical-align:top;}
+a img:hover{ opacity:.8;}
+html,body{ overflow-x:hidden;}
+body{ position:relative;}
+
+.pWrap{ width:1200px; margin-left:auto; margin-right:auto;}
+

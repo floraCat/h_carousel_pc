@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>shop</title>
+	<link rel="stylesheet" type="text/css" href="css/h_reset.css" />
+	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+</head> 
+<script type="text/javascript" src="js/h_carousel.js"></script>
+<body style="padding:20px;"> 
+
+
+<xmp style="font-family:微软雅黑; line-height:20px;">!--轮播--
+</xmp>
+<style>
+.HFocus{ width:500px; position:relative;}
+.HFocus .itemBox{ position:relative; overflow:hidden;}
+.HFocus .item{ float:left;}
+.HFocus .item a{ position:relative; display:block; width:500px; height:400px; background-position:center;}
+.HFocus .os{ position:absolute; bottom:45px; left:0; width:100%; height:10px; text-align:center;}
+.HFocus .os li{ display:inline-block; width:10px; height:10px; margin:0 3px; background-color:#999; cursor:pointer; text-indent:-9999px; _line-height:0;
+ border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -khtml-border-radius:5px;}
+.HFocus .os li.on{ background-color:#3f86f0;}
+.HFocus .arrow{ position:absolute; top:50%; margin-top:-15px; width:30px; height:30px; margin-top:-15px; background-color:#fff; cursor:pointer;}
+.HFocus .arrow.prev{ left:10px;}
+.HFocus .arrow.next{ right:10px;}
+.HFocus .arrow.off{ background:#aaa; cursor:auto;}
+.HFocus .item .ttl_{ position:absolute; bottom:0; left:0; width:100%; height:40px; line-height:40px; text-indent:15px; background-color:#fff9; filter:alpha(opacity=80); background:rgba(255,255,255,.8);}
+</style>
+<div class="HFocus" data-js-carousel='{
+				"itemBox": ".itemBox",
+				"navBox": ".os",
+				"prev":".prev",
+				"next":".next",
+				"mode": "slide",
+				"perUnit": 1,
+				"default_on":1,
+				"hasNav": false,
+				"loop": true,
+				"autoPlay": true,
+				"delayAnimate":400,
+				"delayTime": 3000
+			}'>
+	<div class="itemBox">
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_1.jpg);"><p class="ttl_">111</p></a></div>
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_2.jpg);"><p class="ttl_">222</p></a></div>
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_2.jpg);"><p class="ttl_">333</p></a></div>
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_2.jpg);"><p class="ttl_">444</p></a></div>
+	</div>
+	<div class="os"></div>
+	<div class="arrow prev"></div>
+	<div class="arrow next"></div>
+</div><!--[HFocus]-->
+
+
+<br>
+<xmp style="font-family:微软雅黑; line-height:20px;">!--多图轮播--
+</xmp>
+
+
+<style>
+.HFocus2 .item a{ width:250px;}
+</style>
+<div class="HFocus HFocus2" data-js-carousel='{
+				"itemBox": ".itemBox",
+				"navBox": ".os",
+				"prev":".prev",
+				"next":".next",
+				"mode": "slide",
+				"perUnit": 2,
+				"default_on":0,
+				"hasNav": false,
+				"loop": false,
+				"autoPlay": false,
+				"delayAnimate":400,
+				"delayTime": 3000
+			}'>
+	<div class="itemBox">
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_1.jpg);"><p class="ttl_">111</p></a></div>
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_2.jpg);"><p class="ttl_">222</p></a></div>
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_2.jpg);"><p class="ttl_">333</p></a></div>
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_2.jpg);"><p class="ttl_">444</p></a></div>
+	</div>
+	<div class="os"></div>
+	<div class="arrow prev"></div>
+	<div class="arrow next"></div>
+</div><!--[HFocus]-->
+
+
+<br>
+<xmp style="font-family:微软雅黑; line-height:20px;">!--多图轮播--
+</xmp>
+
+<style>
+
+</style>
+<div class="HFocus hide" data-js-carousel='{
+				"itemBox": ".itemBox",
+				"navBox": ".os",
+				"prev":".prev",
+				"next":".next",
+				"mode": "slide",
+				"perUnit": 2,
+				"default_on":0,
+				"hasNav": false,
+				"loop": false,
+				"autoPlay": false,
+				"delayAnimate":400,
+				"delayTime": 3000
+			}'>
+	<div class="itemBox">
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_1.jpg);"><p class="ttl_">111</p></a></div>
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_2.jpg);"><p class="ttl_">222</p></a></div>
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_2.jpg);"><p class="ttl_">333</p></a></div>
+		<div class="item"><a href="#" target="_blank" style="background-image:url(images/focus_2.jpg);"><p class="ttl_">444</p></a></div>
+	</div>
+	<div class="os"></div>
+	<div class="arrow prev"></div>
+	<div class="arrow next"></div>
+</div><!--[HFocus]-->
+
+
+
+</body>
+</html>
+
